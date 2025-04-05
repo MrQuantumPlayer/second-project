@@ -84,6 +84,7 @@ img {
 
 /*Second Block Styleing*/
 .info-container {
+    padding:50px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -96,6 +97,12 @@ img {
     border:3px solid #3882F6;
     border-radius: 10px;
 
+}
+
+.info-container h1 {
+    font-size: 36px;
+    color:#1F2937;
+    font-weight: 900;
 }
 
 .boxes {
@@ -114,4 +121,40 @@ img {
 
 .card-text {
     text-align: center  ;
+}
+
+/*Quote Section Styling*/
+
+.quote-container{
+    padding:50px;
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    width: 700px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 15px;
+
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    color:#1F2937;
+    
+    
+}
+
+.quote-autor {
+    align-self:self-end;
+    font-weight: 900;
 }
