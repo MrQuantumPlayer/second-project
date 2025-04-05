@@ -24,6 +24,7 @@ img {
     border-radius: 5px;
     background-color: #3882F6;
     color:#F9FAF8;
+    border:none;
 }
 
 .hero-text p, a{
@@ -186,3 +187,9 @@ img {
     justify-content: space-between;
 }
 
+footer {
+    background-color: #1F2937;
+    color:#F9FAF8;
+    text-align: center;
+    padding:30px;
+}
