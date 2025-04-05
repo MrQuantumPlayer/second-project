@@ -160,3 +160,29 @@ img {
 }
 
 /*Styling Fourth Block*/
+.message-button button {
+    padding:5px 20px;
+    border-radius: 5px;
+    background-color: #3882F6;
+    color:#F9FAF8;
+    border:2px solid white;
+}
+
+.message-container {
+    height:300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.message-button {
+    width:900px;
+    padding:50px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    color:#F9FAF8;
+    display: flex;
+    justify-content: space-between;
+}
+
