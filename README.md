@@ -1,2 +1,2 @@
 # second-project
-Second Project in Foundation course of Odin Project
+Second Project in Foundation Course of Odin Project
